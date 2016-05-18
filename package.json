@@ -1,0 +1,22 @@
+{
+  "name": "primer-flex-table",
+  "version": "0.1.0",
+  "description": "GitHub Primer - Flex-table",
+  "homepage": "https://github.com/styleguide",
+  "license": "MIT",
+  "repository": "https://github.com/primer/flex-table.git",
+  "main": "flex-table.scss",
+  "bugs": {
+    "url": "https://github.com/primer/flex-table/issues"
+  },
+  "author": "GitHub, Inc.",
+  "scripts": {
+    "test": "scss-lint *.scss"
+  },
+  "keywords": [
+    "primer",
+    "css",
+    "github",
+    "primercss"
+  ]
+}
