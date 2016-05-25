@@ -1,17 +1,30 @@
 {
-  "name": "primer-flex-table",
   "version": "0.1.0",
-  "description": "GitHub Primer - Flex-table",
-  "homepage": "https://github.com/styleguide",
+  "name": "primer-flex-table",
+  "description": "A module for creating dynamically resizable elements that always sit on the same horizontal line.",
+  "homepage": "http://primercss.io/",
+  "author": "GitHub, Inc.",
   "license": "MIT",
+  "style": "index.scss",
+  "files": [
+    "index.scss",
+    "lib"
+  ],
   "repository": "https://github.com/primer/flex-table.git",
-  "main": "flex-table.scss",
   "bugs": {
     "url": "https://github.com/primer/flex-table/issues"
   },
-  "author": "GitHub, Inc.",
   "scripts": {
-    "test": "scss-lint *.scss"
+    "build": "npm run setup && npm run preprocess",
+    "lint": "scss-lint **/*.scss",
+    "preprocess": "node-sass index.scss --include-path node_modules | postcss -c .postcss.json -o build/build.css",
+    "setup": "npm install",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2"
   },
   "keywords": [
     "primer",
