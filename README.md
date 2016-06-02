@@ -7,10 +7,6 @@
 
 This repository is a module of the full [primer-css][primer] repository.
 
-## Documentation
-
-You can read more about flex-table in the [docs][docs].
-
 ## Install
 
 This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `primer-flex-table` with this command.
@@ -37,18 +33,38 @@ For a compiled **css** version of this module, a npm script is included that wil
 $ npm run build
 ```
 
-## Related
+## Documentation
 
-* [Primer Documentation][docs]
-* [primer-css][primer]
-* [primer-support][primer-support]
+You can read more about other primer modules in the [full primer docs][docs].
+
+<!-- %docs
+title: Flex table
+-->
+
+### Flex table
+
+Flex table is a module for creating dynamically resizable elements that always sit on the same horizontal line (e.g., they never break to a new line). Using table styles in our CSS means it's cross browser friendly back to at least IE9.
+
+Additional `margin` or `padding` may be required to properly space content.
+
+```html
+<div class="flex-table">
+  <div class="flex-table-item flex-table-item-primary">
+    <input class="input-block form-control" type="text" placeholder="Long flexible input form">
+  </div>
+  <div class="flex-table-item">
+    <button class="btn" type="button">Button</button>
+  </div>
+</div>
+```
+
+<!-- %enddocs -->
 
 ## License
 
-MIT &copy; [GitHub](https://github.com/)
+[MIT](./LICENSE) &copy; [GitHub](https://github.com/)
 
 [primer]: https://github.com/primer/primer
-[primer-support]: https://github.com/primer/primer-support
 [docs]: http://primercss.io/
 [npm]: https://www.npmjs.com/
 [install-npm]: https://docs.npmjs.com/getting-started/installing-node
