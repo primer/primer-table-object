@@ -1,5 +1,5 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "name": "primer-flex-table",
   "description": "A module for creating dynamically resizable elements that always sit on the same horizontal line.",
   "homepage": "http://primercss.io/",
