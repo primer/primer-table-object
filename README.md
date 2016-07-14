@@ -40,6 +40,7 @@ You can read more about other primer modules in the [full primer docs][docs].
 <!-- %docs
 title: Flex table
 homepage: https://github.com/primer/flex-table
+status: Stable
 -->
 
 ### Flex table
