@@ -1,6 +1,6 @@
 {
   "version": "0.2.4",
-  "name": "primer-flex-table",
+  "name": "primer-table-object",
   "description": "A module for creating dynamically resizable elements that always sit on the same horizontal line.",
   "homepage": "http://primercss.io/",
   "author": "GitHub, Inc.",
@@ -11,9 +11,9 @@
     "lib",
     "build"
   ],
-  "repository": "https://github.com/primer/primer-flex-table.git",
+  "repository": "https://github.com/primer/primer-table-object.git",
   "bugs": {
-    "url": "https://github.com/primer/primer-flex-table/issues"
+    "url": "https://github.com/primer/primer-table-object/issues"
   },
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then npm install; fi",
