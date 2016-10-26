@@ -1,18 +1,18 @@
-# Primer CSS Flex-table
+# Primer CSS table object
 
-[![NPM version](http://img.shields.io/npm/v/primer-flex-table.svg)](https://www.npmjs.org/package/primer-flex-table)
-[![Build Status](https://travis-ci.org/primer/flex-table.svg?branch=master)](https://travis-ci.org/primer/flex-table)
+[![NPM version](http://img.shields.io/npm/v/primer-table-object.svg)](https://www.npmjs.org/package/primer-table-object)
+[![Build Status](https://travis-ci.org/primer/table-object.svg?branch=master)](https://travis-ci.org/primer/table-object)
 
-> Flex table is a module for creating dynamically resizable elements that always sit on the same horizontal line (e.g., they never break to a new line). Using table styles in our CSS means it’s cross browser friendly back to at least IE9.
+> Table object is a module for creating dynamically resizable elements that always sit on the same horizontal line (e.g., they never break to a new line). Using table styles in our CSS means it’s cross browser friendly back to at least IE9.
 
 This repository is a module of the full [primer-css][primer-css] repository.
 
 ## Install
 
-This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `primer-flex-table` with this command.
+This repository is distributed with [npm][npm]. After [installing npm][install-npm], you can install `primer-table-object` with this command.
 
 ```
-$ npm install --save primer-flex-table
+$ npm install --save primer-table-object
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ $ npm install --save primer-flex-table
 The source files included are written in [Sass][sass] (`scss`) You can simply point your sass `include-path` at your `node_modules` directory and import it like this.
 
 ```scss
-@import "primer-flex-table/index.scss";
+@import "primer-table-object/index.scss";
 ```
 
 You can also import specific portions of the module by importing those partials from the `/lib/` folder. _Make sure you import any requirements along with the modules._
@@ -38,23 +38,23 @@ $ npm run build
 You can read more about other primer modules in the [full primer docs][docs].
 
 <!-- %docs
-title: Flex table
-homepage: https://github.com/primer/primer-flex-table
+title: Table object
+homepage: https://github.com/primer/table-object
 status: Stable
 -->
 
-### Flex table
+### Table object
 
-Flex table is a module for creating dynamically resizable elements that always sit on the same horizontal line (e.g., they never break to a new line). Using table styles in our CSS means it's cross browser friendly back to at least IE9.
+The table object is a module for creating dynamically resizable elements that always sit on the same horizontal line (e.g., they never break to a new line). Using table styles in our CSS means it's cross browser friendly back to at least IE9.
 
 Additional `margin` or `padding` may be required to properly space content.
 
 ```html
-<div class="flex-table">
-  <div class="flex-table-item flex-table-item-primary">
-    <input class="input-block form-control" type="text" placeholder="Long flexible input form">
+<div class="TableObject">
+  <div class="TableObject-item TableObject-item--primary">
+    <input class="input-block form-control" type="text" placeholder="Long elastic input form">
   </div>
-  <div class="flex-table-item">
+  <div class="TableObject-item">
     <button class="btn" type="button">Button</button>
   </div>
 </div>

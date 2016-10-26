@@ -1,13 +1,14 @@
-// Flex table is a module for creating dynamically resizable elements that
+// TableObject is a module for creating dynamically resizable elements that
 // always sit on the same horizontal line (e.g., they never wrap). Using
 // tables means it's cross browser friendly.
+// stylelint-disable selector-class-pattern
 
-.flex-table {
+.TableObject {
   display: table;
 }
 
 // Place this on every "cell"
-.flex-table-item {
+.TableObject-item {
   display: table-cell;
   width: 1%;
   white-space: nowrap;
@@ -15,6 +16,6 @@
 }
 
 // Place this on the largest or most important "cell"
-.flex-table-item-primary {
+.TableObject-item--primary {
   width: 99%;
 }
