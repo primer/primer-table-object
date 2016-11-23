@@ -1,3 +1,8 @@
+# HEAD
+
+ * Sorting and table objects. We also don't need homepage - Jon Rohan [github/github@798629d](https://github.com/github/github/commit/798629d)
+ * Removing duplicate headers - Jon Rohan [github/github@225cee1](https://github.com/github/github/commit/225cee1)
+
 # v1.0.0
 
  * Copy chnages - Caleb Winters [github/github@7ac71e6](https://github.com/github/github/commit/7ac71e6)
