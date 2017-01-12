@@ -48,10 +48,10 @@ Additional `margin` or `padding` may be required to properly space content.
 ```html
 <div class="TableObject">
   <div class="TableObject-item TableObject-item--primary">
-    <input class="input-block form-control" type="text" placeholder="Long elastic input form">
+    <input class="input-block form-control" type="text" placeholder="Long elastic input form" aria-label="Long elastic input form">
   </div>
   <div class="TableObject-item">
-    <button class="btn" type="button">Button</button>
+    <button class="btn ml-2" type="button">Button</button>
   </div>
 </div>
 ```
