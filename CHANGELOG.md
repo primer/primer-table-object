@@ -1,5 +1,7 @@
 # HEAD
 
+ * Removing needless disables - Jon Rohan [github/github@6233c40](https://github.com/github/github/commit/6233c40)
+ * Add aria-label to input and spacing for button - Mu-An Chiou [github/github@59cabaa](https://github.com/github/github/commit/59cabaa)
  * Sorting and table objects. We also don't need homepage - Jon Rohan [github/github@798629d](https://github.com/github/github/commit/798629d)
  * Removing duplicate headers - Jon Rohan [github/github@225cee1](https://github.com/github/github/commit/225cee1)
 
